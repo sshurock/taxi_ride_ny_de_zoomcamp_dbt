@@ -6,8 +6,9 @@ sources:
     schema: trips_data_all
 
     tables:
-      - name: green_tripdata_2020
-      - name: yellow_tripdata_2019
+      - name: green_tripdata
+      - name: yellow_tripdata
+      - name: fhv_tripdata_2019
 models:
     - name: stg_green_tripdata
       description: >
